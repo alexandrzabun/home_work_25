@@ -1,0 +1,130 @@
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title-first {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.card-container {
+    position: relative;
+    margin: 10px 20px;
+    width: 340px;
+    height: 544px;
+    border: 1px solid #956D84;
+    background: #FFFFFF;
+}
+
+.second-container {
+    position: relative;
+    width: 338px;
+    height: 304px;
+    background: #FBF9FA;
+}
+
+.round {
+    position: absolute;
+    left: 20px;
+    top: 6px;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    border: 1px dashed #E72222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    position: absolute;
+    right: 24px;
+    top: 33px;
+}
+
+.round-top {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background: rgba(157, 117, 140, 0.39);
+    text-transform: uppercase;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #828282;
+    right: 13px;
+    bottom: 27px;
+}
+/* С главной картинкой так и не разобрался как правильно её вставить */
+.pricipal-img {
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Не уверен в правильности использования тут position: relative; когда использую position: absolut; то текст поднимаеться на вверх */
+.discrp {
+   /* position: relative;
+    left: 26px;
+    top: 57px;*/
+    float: left;
+    padding: 57px 0 0 26px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.price {
+    /* position: absolute; 
+    right: 26px;
+    bottom: 150px;*/
+    float: right;
+    padding: 44px 23px 0 0;
+}
+
+.price-old {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: line-through;
+    color: #BDBDBD;
+}
+
+.price-new {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #828282;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Кнопку не знаю если правильно расположил*/
+.button {
+    margin: 41px 56px 14px 64px;
+    width: 220px;
+    height: 63px;
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 60px;
+    background: #956D84 url(.//img/img-button.png) no-repeat right center /90px ;
+    cursor: pointer;
+}
+
+.order-link {
+    position: absolute;
+    left: 112px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #828282;
+}
